@@ -14,20 +14,16 @@ test = {
           ...     else:
           ...         return 25
           >>> xk(10, 10)
-          07fa61723879693a70211246239795ee
-          # locked
+          23
           >>> xk(10, 6)
-          07fa61723879693a70211246239795ee
-          # locked
+          23
           >>> xk(4, 6)
-          3dcab9fe3b2b966fc0dea4bee36cfbe4
-          # locked
+          6
           >>> xk(0, 0)
-          dc549763a66595fb8475050be281005d
-          # locked
+          25
           """,
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'multiline': False
         },
         {
@@ -42,28 +38,23 @@ test = {
           ...     else:
           ...         print(0)
           >>> how_big(7)  # Be careful with quotation marks!
-          fe4028bb37030ad778842d40ac93e700
-          # locked
+          'big'
           >>> print(how_big(7))  # Be careful with quotation marks!
-          7102bc8cf1223978bd8a02f3676b9cd4
-          # locked
+          big
           >>> how_big(12)
-          260c9a22fd4f3d2d25e08b6a0cd9d10e
-          98a026fcc10e24150ac1d08bf0cde5a9
-          # locked
+          huge
+          positive
           >>> print(how_big(12))
-          260c9a22fd4f3d2d25e08b6a0cd9d10e
-          98a026fcc10e24150ac1d08bf0cde5a9
-          140b47bd322af58a8e4cce7e526bedeb
-          # locked
+          huge
+          positive
+          None
           >>> print(how_big(1), how_big(0))
-          98a026fcc10e24150ac1d08bf0cde5a9
-          b0754f6baafe74512d1be0bd5c8098ed
-          342c92c77f6ac0d470d055412adc2e0e
-          # locked
+          positive
+          0
+          None None
           """,
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'multiline': False
         }
       ],
@@ -78,14 +69,13 @@ test = {
           >>> while n >= 0:  # If this loops forever, just type Infinite Loop
           ...     n -= 1
           ...     print(n)
-          6d6f378f0affa7f84aa38e519e353617
-          f26f9ec9ba426ebfdd8a43b22c8c74a0
-          b0754f6baafe74512d1be0bd5c8098ed
-          8e8a6ea9b75e03aef4652f8a6bc37fba
-          # locked
+          2
+          1
+          0
+          -1
           """,
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'multiline': True
         },
         {
@@ -95,13 +85,12 @@ test = {
           ...    if negative + 6:
           ...        print(negative)
           ...    negative += 3
-          b3c9c48be5cbc9295c81c3e75d1538d8
-          efbd765b468a29852de43786a3d7f2b9
-          065654bed198eae1187f5223b6973a0c
-          # locked
+          -12
+          -9
+          -3
           """,
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'multiline': True
         }
       ],
