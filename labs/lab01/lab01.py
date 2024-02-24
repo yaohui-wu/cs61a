@@ -44,9 +44,6 @@ def divisible_by_k(n, k):
     "*** YOUR CODE HERE ***"
     if n < k:
         return 0
-    if n == k:
-        print(n)
-        return 1
     print(k)
     count = 1
     i = k + 1
