@@ -87,4 +87,11 @@ def double_eights(n):
     False
     """
     "*** YOUR CODE HERE ***"
+    while n > 0:
+        i = n % 10
+        n //= 10
+        j = n % 10
+        if i == 8 and j == 8:
+            return True
+    return False
 
