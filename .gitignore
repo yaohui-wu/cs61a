@@ -4,3 +4,7 @@
 !.gitignore 
 !*.py
 !*.ok
+!*.html
+!*.css
+!*.js
+!*.txt
