@@ -11,11 +11,9 @@ def falling(n, k):
     1
     """
     "*** YOUR CODE HERE ***"
-    if k == 0:
-        return 1
-    total = n
-    while k > 1:
-        total *= n - 1
+    total = 1
+    while k > 0:
+        total *= n
         n -= 1
         k -= 1
     return total
@@ -42,13 +40,10 @@ def divisible_by_k(n, k):
     0
     """
     "*** YOUR CODE HERE ***"
-    if n < k:
-        return 0
-    print(k)
-    count = 1
-    i = k + 1
+    count = 0
+    i = k
     while i <= n:
-        if k == 1 or i % k == 0:
+        if i % k == 0:
             print(i)
             count += 1
         i += 1
