@@ -83,6 +83,16 @@ def multiple(a, b):
     42
     """
     "*** YOUR CODE HERE ***"
+    if a == 0 and b == 0:
+        lcm = 0 # Lowest common multiple.
+        return lcm
+    x, y = a, b
+    # Apply Euclidean algorithm to find the greatest common divisor of a and b.
+    while y != 0:
+        x, y = y, x % y
+    gcd = x # Greatest common divisor.
+    lcm = abs(a) * (abs(b)//gcd)
+    return lcm
 
 
 
