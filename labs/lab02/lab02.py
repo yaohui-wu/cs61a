@@ -14,9 +14,9 @@ def composite_identity(f, g):
     False
     """
     "*** YOUR CODE HERE ***"
-    def is_composite_identity(x):
+    def h(x):
         return f(g(x)) == g(f(x))
-    return is_composite_identity
+    return h
 
 
 def sum_digits(y):
@@ -63,15 +63,15 @@ def count_cond(condition):
     8
     """
     "*** YOUR CODE HERE ***"
-    def count(n):
-        total = 0
+    def counter(n):
+        count = 0
         i = 1
         while i <= n:
             if condition(n, i):
-                total += 1
+                count += 1
             i += 1
-        return total
-    return count
+        return count
+    return counter
 
 
 def multiple(a, b):
@@ -86,10 +86,13 @@ def multiple(a, b):
     if a == 0 and b == 0:
         lcm = 0 # Lowest common multiple.
         return lcm
-    x, y = a, b
+    x = a
+    y = b
     # Apply Euclidean algorithm to find the greatest common divisor of a and b.
     while y != 0:
-        x, y = y, x % y
+        temp = x % y
+        x = y
+        y = temp
     gcd = x # Greatest common divisor.
     lcm = abs(a) * (abs(b)//gcd)
     return lcm
@@ -123,4 +126,18 @@ def cycle(f1, f2, f3):
     19
     """
     "*** YOUR CODE HERE ***"
+    def g(n):
+        def h(x):
+            i = 1
+            while i <= n:
+                if i % 3 == 1:
+                    x = f1(x)
+                elif i % 3 == 2:
+                    x = f2(x)
+                else:
+                    x = f3(x)
+                i += 1
+            return x
+        return h
+    return g
 
