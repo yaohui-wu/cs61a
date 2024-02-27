@@ -14,6 +14,9 @@ def composite_identity(f, g):
     False
     """
     "*** YOUR CODE HERE ***"
+    def is_composite_identity(x):
+        return f(g(x)) == g(f(x))
+    return is_composite_identity
 
 
 def sum_digits(y):
