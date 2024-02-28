@@ -23,14 +23,14 @@ def roll_dice(num_rolls, dice=six_sided):
     # BEGIN PROBLEM 1
     "*** YOUR CODE HERE ***"
     points = 0
-    sow_sad = False
+    is_sow_sad = False
     while num_rolls > 0:
         outcome = dice()
         if outcome == 1:
-            sow_sad = True
+            is_sow_sad = True
         points += outcome
         num_rolls -= 1
-    if sow_sad == True:
+    if is_sow_sad == True:
         points = 1
     return points
     # END PROBLEM 1
@@ -46,10 +46,7 @@ def boar_brawl(player_score, opponent_score):
     # BEGIN PROBLEM 2
     "*** YOUR CODE HERE ***"
     points = 0
-    if player_score < 10:
-        ones = player_score
-    else:
-        ones = player_score % 10
+    ones = player_score % 10
     tens = opponent_score // 10 % 10
     points += 3 * abs(tens - ones)
     if points == 0:
@@ -119,6 +116,8 @@ def sus_points(score):
     factors = num_factors(score)
     if factors == 3 or factors == 4:
         score += 1
+        # By the Bertrand-Chebyshev theorem, for all integers n > 1, there
+        # exists a prime number p s.t. n < p < 2n.
         while not is_prime(score):
             score += 1
     return score
