@@ -112,4 +112,11 @@ def make_repeater(f, n):
     390625
     """
     "*** YOUR CODE HERE ***"
+    def g(x):
+        i = 1
+        while i <= n:
+            x = f(x)
+            i += 1
+        return x
+    return g
 
