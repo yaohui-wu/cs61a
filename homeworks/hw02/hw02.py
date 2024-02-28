@@ -60,12 +60,12 @@ def accumulate(fuse, start, n, term):
     19
     """
     "*** YOUR CODE HERE ***"
-    result = start
+    total = start
     i = 1
     while i <= n:
-        result = fuse(result, term(i))
+        total = fuse(total, term(i))
         i += 1
-    return result
+    return total
 
 
 def summation_using_accumulate(n, term):
@@ -112,11 +112,11 @@ def make_repeater(f, n):
     390625
     """
     "*** YOUR CODE HERE ***"
-    def g(x):
+    def repeater(x):
         i = 1
         while i <= n:
             x = f(x)
             i += 1
         return x
-    return g
+    return repeater
 
