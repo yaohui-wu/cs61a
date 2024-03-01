@@ -366,9 +366,22 @@ def final_strategy(score, opponent_score):
     """Write a brief description of your final strategy.
 
     *** YOUR DESCRIPTION HERE ***
+    If we can win by rolling 0 or 1 dice then roll that number of dice, else
+    we use the sus strategy.
     """
     # BEGIN PROBLEM 12
-    return 6  # Remove this line once implemented.
+    boar_points = boar_brawl(score, opponent_score)
+    boar_score = sus_points(score + boar_points)
+    if boar_score > GOAL:
+        return 0
+    i = 1
+    while i <= 6:
+        sus_score = sus_points(score + i)
+        if sus_score > GOAL:
+            return 1
+        i += 1
+    num_rolls = sus_strategy(score, opponent_score)
+    return num_rolls
     # END PROBLEM 12
 
 
