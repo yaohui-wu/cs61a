@@ -82,6 +82,16 @@ def interleaved_sum(n, odd_func, even_func):
     True
     """
     "*** YOUR CODE HERE ***"
+    def sum_from_k_to_n(k):
+        """Compute the interleaved sum from the odd number k to n."""
+        if k > n:
+            return 0
+        if k == n:
+            return odd_func(k)
+        return odd_func(k) + even_func(k + 1) + sum_from_k_to_n(k + 2)
+    if n == 1:
+        return odd_func(1)
+    return sum_from_k_to_n(1)
 
 
 def next_larger_coin(coin):
