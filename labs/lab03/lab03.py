@@ -92,6 +92,11 @@ def double_eights(n):
     True
     """
     "*** YOUR CODE HERE ***"
+    if n % 10 == 8 and n // 10 % 10 == 8:
+        return True
+    if n < 100:
+        return False
+    return double_eights(n // 10)
 
 
 def make_onion(f, g):
