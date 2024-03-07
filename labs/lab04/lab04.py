@@ -29,9 +29,9 @@ def buy(required_fruits, prices, total_amount):
             print(cart)
         elif fruits and amount > 0:
             fruit = fruits[0]
-            price = ____
-            for k in ____:
-                add(____, ____, ____)
+            price = prices[fruit]
+            for k in range(1, amount // price+1):
+                add(fruits[1:], amount - price*k, cart + display(fruit, k))
     add(required_fruits, total_amount, '')
 
 
