@@ -155,6 +155,18 @@ def autocorrect(typed_word, word_list, diff_function, limit):
     """
     # BEGIN PROBLEM 5
     "*** YOUR CODE HERE ***"
+    if typed_word in word_list:
+        return typed_word
+    min_diff = limit + 1
+    diff_func = lambda word: diff_function(typed_word, word, limit)
+    for word in word_list:
+        diff = diff_func(word)
+        if diff < min_diff:
+            min_diff = diff
+            correct = word
+    if min_diff <= limit:
+        return correct
+    return typed_word
     # END PROBLEM 5
 
 
