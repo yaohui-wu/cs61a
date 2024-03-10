@@ -317,6 +317,13 @@ def time_per_word(words, timestamps_per_player):
     """
     # BEGIN PROBLEM 9
     "*** YOUR CODE HERE ***"
+    times = []
+    for player in timestamps_per_player:
+        player_times = []
+        for i in range(1, len(player)):
+            player_times.append(player[i] - player[i - 1])
+        times.append(player_times)
+    return match(words, times)
     # END PROBLEM 9
 
 
