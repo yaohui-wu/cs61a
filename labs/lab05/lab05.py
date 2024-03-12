@@ -78,7 +78,13 @@ def count_occurrences(t, n, x):
     2
     """
     "*** YOUR CODE HERE ***"
-
+    count = 0
+    i = 0
+    while i < n:
+        if next(t) == x:
+            count += 1
+        i += 1
+    return count
 
 def repeated(t, k):
     """Return the first value in iterator t that appears k times in a row,
