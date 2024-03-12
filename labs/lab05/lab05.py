@@ -107,6 +107,17 @@ def repeated(t, k):
     """
     assert k > 1
     "*** YOUR CODE HERE ***"
+    count = 0
+    prev = None
+    while True:
+        curr = next(t)
+        if prev == curr:
+            count += 1
+        else:
+            prev = curr
+            count = 1
+        if count == k:
+            return curr
 
 
 def sprout_leaves(t, leaves):
