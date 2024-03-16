@@ -133,6 +133,13 @@ def balanced(m):
     True
     """
     "*** YOUR CODE HERE ***"
+    if is_planet(m):
+        return True
+    left_end, right_end = end(left(m)), end(right(m))
+    left_torque = length(left(m)) * total_mass(left_end)
+    right_torque = length(right(m)) * total_mass(right_end)
+    return (left_torque == right_torque and balanced(left_end) and
+            balanced(right_end))
 
 
 HW_SOURCE_FILE=__file__
