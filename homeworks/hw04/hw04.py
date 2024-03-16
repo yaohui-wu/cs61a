@@ -155,6 +155,12 @@ def max_path_sum(t):
     17
     """
     "*** YOUR CODE HERE ***"
+    if is_leaf(t):
+        return label(t)
+    max_sum = 0
+    for i in branches(t):
+        max_sum = max(max_path_sum(i), max_sum)
+    return label(t) + max_sum
 
 
 
