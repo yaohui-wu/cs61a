@@ -177,7 +177,7 @@ class ThrowerAnt(Ant):
         """
         # BEGIN Problem 3 and 4
         place = self.place
-        for i in range(self.lower_bound):
+        for _ in range(self.lower_bound):
             if not place.entrance:
                 return
             place = place.entrance
@@ -246,7 +246,7 @@ class FireAnt(Ant):
     food_cost = 5
     # OVERRIDE CLASS ATTRIBUTES HERE
     # BEGIN Problem 5
-    implemented = False   # Change to True to view in the GUI
+    implemented = True   # Change to True to view in the GUI
     # END Problem 5
 
     def __init__(self, health=3):
@@ -262,6 +262,13 @@ class FireAnt(Ant):
         """
         # BEGIN Problem 5
         "*** YOUR CODE HERE ***"
+        place = self.place
+        damage = amount
+        if self.health <= amount:
+            damage += self.damage
+        super().reduce_health(amount)
+        for bee in place.bees[:]:
+            bee.reduce_health(damage)
         # END Problem 5
 
 # BEGIN Problem 6
