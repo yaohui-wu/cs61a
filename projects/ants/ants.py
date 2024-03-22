@@ -218,9 +218,9 @@ class ShortThrower(ThrowerAnt):
     name = 'Short'
     food_cost = 2
     # OVERRIDE CLASS ATTRIBUTES HERE
+    # BEGIN Problem 4
     lower_bound = 0
     upper_bound = 3
-    # BEGIN Problem 4
     implemented = True   # Change to True to view in the GUI
     # END Problem 4
 
@@ -231,9 +231,9 @@ class LongThrower(ThrowerAnt):
     name = 'Long'
     food_cost = 2
     # OVERRIDE CLASS ATTRIBUTES HERE
+    # BEGIN Problem 4
     lower_bound = 5
     upper_bound = float('inf')
-    # BEGIN Problem 4
     implemented = True   # Change to True to view in the GUI
     # END Problem 4
 
