@@ -119,7 +119,14 @@ class Ant(Insect):
             place.ant = self
         else:
             # BEGIN Problem 8b
-            assert place.ant is None, 'Too many ants in {0}'.format(place)
+            other = place.ant
+            if other.can_contain(self):
+                other.store_ant(self)
+            elif self.can_contain(other):
+                self.store_ant(other)
+                place.ant = self
+            else:
+                assert place.ant is None, 'Too many ants in {0}'.format(place)
             # END Problem 8b
         Insect.add_to(self, place)
 
