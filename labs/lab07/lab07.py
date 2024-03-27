@@ -103,7 +103,14 @@ def duplicate_link(s, val):
     Link(1, Link(2, Link(2, Link(2, Link(2, Link(3))))))
     """
     "*** YOUR CODE HERE ***"
-
+    if s is Link.empty:
+        return
+    if s.first == val:
+        remainning = s.rest
+        s.rest = Link(val, remainning)
+        duplicate_link(remainning, val)
+    else:
+        duplicate_link(s.rest, val)
 
 class Link:
     """A linked list.
