@@ -79,10 +79,10 @@ def yield_paths(t, value):
     [[0, 2], [0, 2, 1, 2]]
     """
     if label(t) == value:
-        yield ____
+        yield [value]
     for b in branches(t):
-        for ____ in ____:
-            yield ____
+        for path in yield_paths(b, value):
+            yield [label(t)] + path
 
 
 
