@@ -29,4 +29,9 @@
         b
         a))
 
-(define (gcd a b) 'YOUR-CODE-HERE)
+(define (gcd a b)
+    (cond ((zero? a) b)
+        ((zero? b) a)
+        ((= (modulo (max a b) (min a b)) 0) (min a b))
+        (else (gcd (min a b) (modulo (max a b) (min a b)))))
+)
