@@ -14,14 +14,14 @@ def calc_eval(exp):
     3
     """
     if isinstance(exp, Pair):
-        operator = ____________ # UPDATE THIS FOR Q2
-        operands = ____________ # UPDATE THIS FOR Q2
+        operator = exp.first # UPDATE THIS FOR Q2
+        operands = exp.rest # UPDATE THIS FOR Q2
         if operator == 'and': # and expressions
             return eval_and(operands)
         elif operator == 'define': # define expressions
             return eval_define(operands)
         else: # Call expressions
-            return calc_apply(___________, ___________) # UPDATE THIS FOR Q2
+            return calc_apply(calc_eval(operator), operands.map(calc_eval)) # UPDATE THIS FOR Q2
     elif exp in OPERATORS:   # Looking up procedures
         return OPERATORS[exp]
     elif isinstance(exp, int) or isinstance(exp, bool):   # Numbers and booleans
@@ -52,6 +52,13 @@ def floor_div(args):
     20
     """
     "*** YOUR CODE HERE ***"
+    result = args.first
+    divisors = args.rest
+    while divisors != nil:
+        divisor = divisors.first
+        result //= divisor
+        divisors = divisors.rest
+    return result
 
 scheme_t = True   # Scheme's #t
 scheme_f = False  # Scheme's #f
