@@ -16,4 +16,8 @@
         (else (cons (car lst1) (interleave lst2 (cdr lst1)))))
 )
 
-(define (no-repeats s) 'YOUR-CODE-HERE)
+(define (no-repeats s)
+    (if (null? s) s
+        (cons (car s)
+        (no-repeats (filter (lambda (x) (not (= (car s) x))) (cdr s)))))
+)
