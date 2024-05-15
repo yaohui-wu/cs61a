@@ -1,4 +1,3 @@
-# Ignore everything except some directories and files.
 *
 !**/
 !.gitignore 
@@ -9,3 +8,4 @@
 !*.js
 !*.txt
 !*.scm
+!*.sql
