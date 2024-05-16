@@ -25,10 +25,12 @@ CREATE TABLE sizes AS
   SELECT "Soda 320"   , 30;
 
 CREATE TABLE big AS
-  SELECT course FROM finals, sizes WHERE hall = room GROUP BY course HAVING SUM(seats) >= 1000;
+  SELECT course FROM finals, sizes WHERE hall = room GROUP BY course
+    HAVING SUM(seats) >= 1000;
 
 CREATE TABLE remaining AS
-  SELECT "REPLACE THIS LINE WITH YOUR SOLUTION";
+  SELECT course, SUM(seats) - MAX(seats) AS remaining FROM finals, sizes
+    WHERE hall = room GROUP BY course;
 
 CREATE TABLE sharing AS
   SELECT "REPLACE THIS LINE WITH YOUR SOLUTION";
