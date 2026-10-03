@@ -1,2 +1,1 @@
-# University of California, Berkeley
-## CS 61A: Structure and Interpretation of Computer Programs, Spring 2024
+# UC Berkeley CS61A: Structure and Interpretation of Computer Programs
