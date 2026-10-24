@@ -1,4 +1,5 @@
-# UC Berkeley CS61A Structure and Interpretation of Computer Programs
-[CS 61A: Structure and Interpretation of Computer Programs][course-link]
+# UC Berkeley
+## CS61A Structure and Interpretation of Computer Programs
+[CS 61A: Structure and Interpretation of Computer Programs][link]
 
-[course-link]:https://cs61a.org/
+[link]:https://cs61a.org/
