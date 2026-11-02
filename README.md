@@ -1,5 +1,18 @@
-# UC Berkeley CS61A
-## Structure and Interpretation of Computer Programs
-[CS 61A: Structure and Interpretation of Computer Programs][link]
+# CS 61A: Structure and Interpretation of Computer Programs
 
-[link]:https://cs61a.org/
+This repository contains my solutions to the programming assignments and problem
+sets for UC Berkeley's _CS 61A: Structure and Interpretation of Computer
+Programs_ course. All solutions passed 100% of the test cases and received full
+credit on the autograder.
+
+## Course Details
+
+- **Institution:** University of California, Berkeley
+- **Course Code:** CS 61A
+- **Course Name:** Structure and Interpretation of Computer Programs
+- **Course Version:** Spring 2024
+- **Course Website:** [CS 61A: Structure and Interpretation of Computer
+  Programs][course-link]
+- **Technologies:** Python
+
+[course-link]: https://cs61a.org/
