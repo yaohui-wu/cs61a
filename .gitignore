@@ -1,0 +1,24 @@
+# Dependencies and virtual environments
+.venv/
+
+# Cache files
+__pycache__/
+.ok_consent
+.ok_history
+.ok_storage
+*.pyc
+
+# Course resources
+projects/ants/libs/
+projects/ants/static/assets/
+projects/cats/favicons/
+projects/cats/multiplayer/FreeMono.ttf
+scheme
+
+# Generated files and test data
+**/ok
+projects/cats/data/testcases.out
+projects/scheme/mytests.rst
+projects/scheme/scheme_reader
+*.gif
+*.png
