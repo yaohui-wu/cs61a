@@ -9,16 +9,16 @@ __pycache__/
 *.pyc
 
 # Course resources
-projects/ants/libs/
-projects/ants/static/assets/
-projects/cats/favicons/
-projects/cats/multiplayer/FreeMono.ttf
+projects/03_ants/libs/
+projects/03_ants/static/assets/
+projects/02_cats/favicons/
+projects/02_cats/multiplayer/FreeMono.ttf
 scheme
 
 # Generated files and test data
 **/ok
-projects/cats/data/testcases.out
-projects/scheme/mytests.rst
-projects/scheme/scheme_reader
+projects/02_cats/data/testcases.out
+projects/04_scheme/mytests.rst
+projects/04_scheme/scheme_reader
 *.gif
 *.png
