@@ -59,11 +59,11 @@ autograder.
 | [Project 3: Ants Vs. SomeBees][project03]                    | [ants][project03-solution]   |
 | [Project 4: Scheme Interpreter][project04]                   | [scheme][project04-solution] |
 
-<!-- Official course website -->
+<!-- Course website -->
 
 [course-link]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/
 
-<!-- Lab instructions links -->
+<!-- Lab instructions -->
 
 [lab00]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/lab/lab00/
 [lab01]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/lab/lab01/
@@ -79,7 +79,7 @@ autograder.
 [lab11]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/lab/lab11/
 [lab12]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/lab/lab12/
 
-<!-- Homework instructions links -->
+<!-- Homework instructions -->
 
 [hw01]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/hw/hw01/
 [hw02]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/hw/hw02/
@@ -92,16 +92,14 @@ autograder.
 [hw09]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/hw/hw09/
 [hw10]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/hw/hw10/
 
-<!-- Project instructions links -->
+<!-- Project instructions -->
 
 [project01]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/proj/hog/
 [project02]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/proj/cats/
 [project03]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/proj/ants/
 [project04]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/proj/scheme/
 
-<!-- Solution folder links -->
-
-<!-- Lab solutions links -->
+<!-- Lab solutions -->
 
 [lab00-solution]: labs/lab00/
 [lab01-solution]: labs/lab01/
@@ -117,7 +115,7 @@ autograder.
 [lab11-solution]: labs/lab11/
 [lab12-solution]: labs/lab12/
 
-<!-- Homework solutions links -->
+<!-- Homework solutions -->
 
 [hw01-solution]: homeworks/hw01/
 [hw02-solution]: homeworks/hw02/
@@ -130,7 +128,7 @@ autograder.
 [hw09-solution]: homeworks/hw09/
 [hw10-solution]: homeworks/hw10/
 
-<!-- Project solutions links -->
+<!-- Project solutions -->
 
 [project01-solution]: projects/01_hog/
 [project02-solution]: projects/02_cats/
