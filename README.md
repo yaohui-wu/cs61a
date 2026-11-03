@@ -11,7 +11,7 @@ autograder.
 - **Course Code:** CS 61A
 - **Course Name:** Structure and Interpretation of Computer Programs
 - **Course Version:** Spring 2024
-- **Course Website:** [CS 61A Spring 2024][course-link]
+- **Course Website:** [CS 61A Spring 2024][course-website]
 - **Technologies:** Python, SQL
 - **Coursework Timeline:** February 18, 2024 – May 17, 2024
 
@@ -61,7 +61,7 @@ autograder.
 
 <!-- Course website -->
 
-[course-link]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/
+[course-website]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/
 
 <!-- Lab instructions -->
 
