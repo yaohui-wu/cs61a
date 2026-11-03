@@ -12,7 +12,7 @@ autograder.
 - **Course Name:** Structure and Interpretation of Computer Programs
 - **Course Version:** Spring 2024
 - **Course Website:** [CS 61A Spring 2024][course-website]
-- **Technologies:** Python, SQL
+- **Technologies:** Python 3.9+, SQL
 - **Coursework Timeline:** February 18, 2024 – May 17, 2024
 
 ## Coursework
