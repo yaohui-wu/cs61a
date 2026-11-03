@@ -11,9 +11,8 @@ autograder.
 - **Course Code:** CS 61A
 - **Course Name:** Structure and Interpretation of Computer Programs
 - **Course Version:** Spring 2024
-- **Course Website:** [CS 61A][course-link]
-- **Course Archive:** [CS 61A Spring 2024][archive-link]
-- **Technologies:** Python, Scheme, SQL
+- **Course Website:** [CS 61A Spring 2024][course-link]
+- **Technologies:** Python, SQL
 - **Coursework Timeline:** February 18, 2024 – May 17, 2024
 
 ## Coursework
@@ -60,17 +59,11 @@ autograder.
 | [Project 3: Ants Vs. SomeBees][project03]                    | [ants][project03-solution]   |
 | [Project 4: Scheme Interpreter][project04]                   | [scheme][project04-solution] |
 
-<!-- Current course website -->
+<!-- Official course website -->
 
-[course-link]: https://cs61a.org/
+[course-link]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/
 
-<!-- Archived Spring 2024 course website -->
-
-[archive-link]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/
-
-<!-- Archived Spring 2024 assignment links -->
-
-<!-- Labs -->
+<!-- Lab instructions links -->
 
 [lab00]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/lab/lab00/
 [lab01]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/lab/lab01/
@@ -86,7 +79,7 @@ autograder.
 [lab11]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/lab/lab11/
 [lab12]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/lab/lab12/
 
-<!-- Homework -->
+<!-- Homework instructions links -->
 
 [hw01]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/hw/hw01/
 [hw02]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/hw/hw02/
@@ -99,7 +92,7 @@ autograder.
 [hw09]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/hw/hw09/
 [hw10]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/hw/hw10/
 
-<!-- Projects -->
+<!-- Project instructions links -->
 
 [project01]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/proj/hog/
 [project02]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/proj/cats/
@@ -108,7 +101,7 @@ autograder.
 
 <!-- Solution folder links -->
 
-<!-- Labs -->
+<!-- Lab solutions links -->
 
 [lab00-solution]: labs/lab00/
 [lab01-solution]: labs/lab01/
@@ -124,7 +117,7 @@ autograder.
 [lab11-solution]: labs/lab11/
 [lab12-solution]: labs/lab12/
 
-<!-- Homework -->
+<!-- Homework solutions links -->
 
 [hw01-solution]: homeworks/hw01/
 [hw02-solution]: homeworks/hw02/
@@ -137,7 +130,7 @@ autograder.
 [hw09-solution]: homeworks/hw09/
 [hw10-solution]: homeworks/hw10/
 
-<!-- Projects -->
+<!-- Project solutions links -->
 
 [project01-solution]: projects/01_hog/
 [project02-solution]: projects/02_cats/
