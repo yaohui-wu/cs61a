@@ -63,7 +63,7 @@ autograder.
 
 [course-website]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/
 
-<!-- Lab instructions -->
+<!-- Lab specifications -->
 
 [lab00]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/lab/lab00/
 [lab01]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/lab/lab01/
@@ -79,7 +79,7 @@ autograder.
 [lab11]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/lab/lab11/
 [lab12]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/lab/lab12/
 
-<!-- Homework instructions -->
+<!-- Homework specifications -->
 
 [hw01]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/hw/hw01/
 [hw02]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/hw/hw02/
@@ -92,7 +92,7 @@ autograder.
 [hw09]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/hw/hw09/
 [hw10]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/hw/hw10/
 
-<!-- Project instructions -->
+<!-- Project specifications -->
 
 [project01]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/proj/hog/
 [project02]: https://www-inst.eecs.berkeley.edu/~cs61a/sp24/proj/cats/
