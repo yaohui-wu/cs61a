@@ -2,8 +2,7 @@
 
 This repository contains my solutions to the labs, homework, and projects for UC
 Berkeley's _CS 61A: Structure and Interpretation of Computer Programs_ course.
-All solutions passed 100% of the test cases and received full credit on the
-autograder.
+All solutions passed every test case and earned full credit on the autograder.
 
 ## Course Details
 
@@ -130,7 +129,7 @@ autograder.
 
 <!-- Project solutions -->
 
-[project01-solution]: projects/01_hog/
-[project02-solution]: projects/02_cats/
-[project03-solution]: projects/03_ants/
-[project04-solution]: projects/04_scheme/
+[project01-solution]: projects/01-hog
+[project02-solution]: projects/02-cats/
+[project03-solution]: projects/03-ants/
+[project04-solution]: projects/04-scheme/
