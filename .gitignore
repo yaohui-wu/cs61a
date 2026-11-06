@@ -1,4 +1,4 @@
-# Dependencies and virtual environments
+# Virtual environments and dependencies
 .venv/
 
 # Cache files
@@ -6,19 +6,20 @@ __pycache__/
 .ok_consent
 .ok_history
 .ok_storage
+.ok_storage.db
 *.pyc
 
 # Course resources
-projects/03_ants/libs/
-projects/03_ants/static/assets/
-projects/02_cats/favicons/
-projects/02_cats/multiplayer/FreeMono.ttf
+projects/03-ants/libs/
+projects/03-ants/static/assets/
+projects/02-cats/favicons/
+projects/02-cats/multiplayer/FreeMono.ttf
 scheme
 
 # Generated files and test data
 **/ok
-projects/02_cats/data/testcases.out
-projects/04_scheme/mytests.rst
-projects/04_scheme/scheme_reader
+projects/02-cats/data/testcases.out
+projects/04-scheme/mytests.rst
+projects/04-scheme/scheme_reader
 *.gif
 *.png
